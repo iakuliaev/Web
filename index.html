@@ -3,49 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Kiga Motors</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
-<body bgcolor="A4A1A0">
-<header>
-    <section>
-        <h2 style="display: inline"><img src="src/img/main_logo.png" alt="logo"></h2>
-        <nav style="display: inline"><a href="http://www.kigamotorscompany.com/">kigamotorscompany.com</a></nav>
-    </section>
-    <nav>
-        <a href="http://www.instagram.com/kigamotors"> <img src="src/img/inst.png" width="81" height="81" alt="inst"></a>
-        <a href="http://www.auto.ru/kigamotors"> <img src="src/img/autoru.jpeg" width="81" height="81" alt="auto.ru"></a>
-        <a href="http://www.avito.ru/kigamotors"> <img src="src/img/avito.png" width="81" height="81" alt="avito"></a>
+<body>
+
+<header class="header">
+    <div class="header__container">
+        <div class="header__container__image">
+            <h2 style="display: inline">
+                <img class="header__container__image__size" src="src/img/main_logo.png" alt="logo">
+            </h2>
+        </div>
+        <div class="header__container__link">
+            <nav style="display: inline">
+                <a class="text" href="http://www.kigamotorscompany.com/"> kigamotorscompany.com</a>
+            </nav>
+            <div class="header__container__link__social">
+                <a class="header__container__link__social__image"  href="http://www.instagram.com/kigamotors">
+                    <img class="img" src="src/img/inst.png" width="81" height="81" alt="inst">
+                </a>
+                <a class="header__container__link__social__image" href="http://www.auto.ru/kigamotors">
+                    <img class="img" src="src/img/autoru.jpeg" width="81" height="81" alt="auto.ru">
+                </a>
+                <a class="header__container__link__social__image" href="http://www.avito.ru/kigamotors">
+                    <img class="img" src="src/img/avito.png" width="81" height="81" alt="avito">
+                </a>
+            </div>
+        </div>
+    </div>
+    <nav class="header__navigation">
+        <nav class="header__navigation__pages" style="display: inline">
+            <a class="text__navigation" href="src/pages/catalog.html">Все автомобили</a>
+        </nav>
+        <nav class="header__navigation__pages" style="display: inline">
+            <a class="text__navigation" href="src/pages/vacancy.html">Вакансии</a>
+        </nav>
+        <nav class="header__navigation__pages" style="display: inline">
+            <a class="text__navigation" href="src/pages/contacts.html">Контакты</a>
+        </nav>
     </nav>
 </header>
-<main>
-<section>
-    <nav style="display: inline"> <a href="src/pages/catalog.html">Все автомобили</a> </nav>
-    <nav style="display: inline"> <a href="src/pages/credit.html">Кредитование</a> </nav>
-    <nav style="display: inline"> <a href="src/pages/vacancy.html">Вакансии</a> </nav>
-    <nav style="display: inline"> <a href="src/pages/contacts.html">Контакты</a> </nav>
-
-</section>
-<section>
-    <h1><img src="src/img/audi.jpg" height="577" alt="mainlogo"></h1>
-</section>
+<main class="main">
+<div class="main__image">
+    <div class ="main__image__container">
+        <img class="main__image__container__logo" src="src/img/audi.jpg" height="577" alt="mainlogo">
+    </div>
+</div>
 </main>
-<footer>
-    <section>
-        <pre>
-                                          _.-="_-         _
-                         _.-="   _-          | ||"""""""---._______     __..
-             ___.===""""-.______-,,,,,,,,,,,,`-''----" """""       """""  __'
-      __.--""     __        ,'                   o \           __        [__|
- __-""=======.--""  ""--.=================================.--""  ""--.=======:
-]       [w] : /        \ : |========================|    : /        \ :  [w] :
-V___________:|          |: |========================|    :|          |:   _-"
- V__________: \        / :_|=======================/_____: \        / :__-"
- -----------'  "-____-"  `-------------------------------'  "-____-"
-        </pre>
-    </section>
-    <section>
+<footer class="footer">
+    <div class="footer__header">
         <h6>© Copyrights - 2022 All Rights Reserved | KIGA Motors</h6>
-    </section>
+    </div>
 </footer>
 </body>
 </html>

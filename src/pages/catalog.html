@@ -1,35 +1,93 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<html lang="ru" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Main catalog</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/catalog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
-<body bgcolor="A4A1A0">
-<header>
-    <h2 style="display: inline"><a href="../../index.html"><img src="../img/main_logo.png" alt="logo"></a></h2>
-    <h1>Автомобили в наличии</h1>
+<body>
+
+<header class="header">
+    <div class="header__container">
+        <div class="header__container__image">
+            <h2 style="display: inline">
+                <img class="header__container__image__size" src="/src/img/main_logo.png" alt="logo">
+            </h2>
+        </div>
+        <a class="header__container__all">Автомобили в наличии</a>
+    </div>
 </header>
 <main>
-  <section>
-      <h1>Toyota Camry VI (XV40)</h1>
-      <h2><img src="../img/camry.jpg" height="200"></h2>
-      <h4>900 000 руб</h4>
-      <ul>
-          <li>пробег: 120 000км</li>
-          <li>заводской окрас</li>
-          <li>объём двигателя: 3.5л</li>
-          <li>один владелец по ПТС</li>
-          <li>арабский чип</li>
-          <li>японцы делают вещи</li>
-          <li>любви достойна только мать</li>
-      </ul>
-  </section>
+    <div class="advertisment">
+        <div class="advertisment__headerandimg">
+            <a class="advertisment__header__info">Toyota Camry VI (XV40)</a>
+            <img class="img__auto" src="../img/camry.jpg"></img>
+        </div>
+        <div class="advertisment__characteristicsandprice">
+            <a class="advertisment__price">900 000 руб</a>
+            <div class="advertisment__characteristics">
+                <ul>
+                    <li class="advertisment__characteristics__text">пробег: 120 000км</li>
+                    <li class="advertisment__characteristics__text">заводской окрас</li>
+                    <li class="advertisment__characteristics__text">объём двигателя: 3.5л</li>
+                    <li class="advertisment__characteristics__text">один владелец по ПТС</li>
+                    <li class="advertisment__characteristics__text">арабский чип</li>
+                    <li class="advertisment__characteristics__text">японцы делают вещи</li>
+                    <li class="advertisment__characteristics__text">любви достойна только мать</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="advertisment">
+        <div class="advertisment__headerandimg">
+            <a class="advertisment__header__info">Ford Fusion I Рестайлинг</a>
+            <img class="img__auto" src="../img/pups.jpg" ></img>
+        </div>
+        <div class="advertisment__characteristicsandprice">
+            <a class="advertisment__price">450 000 руб</a>
+            <div class="advertisment__characteristics">
+                <ul>
+                    <li class="advertisment__characteristics__text">пробег: 147 000км</li>
+                    <li class="advertisment__characteristics__text">заводской окрас</li>
+                    <li class="advertisment__characteristics__text">объём двигателя: 1.4л</li>
+                    <li class="advertisment__characteristics__text">три владелец по ПТС</li>
+                    <li class="advertisment__characteristics__text">ухоженный салон</li>
+                    <li class="advertisment__characteristics__text">родной пробег</li>
+                    <li class="advertisment__characteristics__text">антикоррозийная обработка</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="advertisment">
+        <div class="advertisment__headerandimg">
+            <a class="advertisment__header__info">Toyota Land Cruiser 200</a>
+            <img class="img__auto" src="../img/200.jpg" ></img>
+        </div>
+        <div class="advertisment__characteristicsandprice">
+            <a class="advertisment__price">7 500 000 руб</a>
+            <div class="advertisment__characteristics">
+                <ul>
+                    <li class="advertisment__characteristics__text">пробег: 90 000км</li>
+                    <li class="advertisment__characteristics__text">заводской окрас</li>
+                    <li class="advertisment__characteristics__text">объём двигателя: 4.6л</li>
+                    <li class="advertisment__characteristics__text">один владелец по ПТС</li>
+                    <li class="advertisment__characteristics__text">богатая комплектация</li>
+                    <li class="advertisment__characteristics__text">охранный комплекс</li>
+                    <li class="advertisment__characteristics__text">обвес khann</li>
+                    <li class="advertisment__characteristics__text">кузов покрыт керамикой</li>
+                    <li class="advertisment__characteristics__text">чип тюнинг</li>
+                    <li class="advertisment__characteristics__text">продленная гарантия</li>
+                </ul>
+            </div>
+        </div>
+    </div>
 </main>
-<footer>
-    <section>
+<footer class="footer">
+    <div class="footer__header">
         <h6>© Copyrights - 2022 All Rights Reserved | KIGA Motors</h6>
-    </section>
+    </div>
 </footer>
 </body>
 </html>

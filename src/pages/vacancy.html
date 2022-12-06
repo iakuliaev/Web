@@ -3,40 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <title>vacancy</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/catalog.css">
+    <link rel="stylesheet" href="/src/css/vacancy.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
-<body bgcolor="A4A1A0">
-<header>
-  <h2 style="display: inline"><a href="../../index.html"><img src="../img/main_logo.png" alt="logo"></a></h2>
-  <h1>Вакансии</h1>
-  <p>Наша компания всегда нуждается в хороших кадрах</p>
+<body>
+<header class="header">
+  <div class="header__container">
+    <div class="header__container__image">
+      <h2 style="display: inline">
+        <img class="header__container__image__size" src="/src/img/main_logo.png" alt="logo">
+      </h2>
+    </div>
+    <a class="header__container__all">Вакансии</a>
+  </div>
 </header>
 <main>
-  <h2>Актуальные вакансии:</h2>
-  <section>
-    <h3>Менеджер по продажам</h3>
-    <h5>Требования:</h5>
-    <ul>
-      <li>коммуникабельность</li>
-      <li>опрятность</li>
-      <li>опыт работы от 3х лет</li>
-    </ul>
-  </section>
-  <section>
-    <h3>Специалист по выкупу автомобилей</h3>
-    <h5>Требования:</h5>
-    <ul>
-      <li>коммуникабельность</li>
-      <li>знание рынка</li>
-      <li>умение анализировать тенденции на рынке</li>
-      <li>опыт работы от 5лет</li>
-    </ul>
-  </section>
+  <div class="main__description__vacancies">
+    <a class="main__description__vacancies__hellotext">Актуальные вакансии:</a>
+    <div class="vacancy__descript">
+      <a class="vacancy__descript__name">Менеджер по продажам</a>
+      <a class="vacancy__requirements">Требования:</a>
+      <ol>
+        <li class="vacancy__requirements__descript">коммуникабельность</li>
+        <li class="vacancy__requirements__descript">опрятность</li>
+        <li class="vacancy__requirements__descript">опыт работы от 3х лет</li>
+        <li class="vacancy__requirements__descript">коммуникабельность</li>
+      </ol>
+    </div>
+    <div class="vacancy__descript">
+      <a class="vacancy__descript__name">Специалист по выкупу автомобилей</a>
+      <a class="vacancy__requirements">Требования:</a>
+      <ol>
+        <li class="vacancy__requirements__descript">коммуникабельность</li>
+        <li class="vacancy__requirements__descript">знание рынка</li>
+        <li class="vacancy__requirements__descript">умение анализировать тенденции на рынке</li>
+        <li class="vacancy__requirements__descript">опыт работы от 5 лет</li>
+      </ol>
+    </div>
+    <div class="vacancy__descript">
+      <a class="vacancy__descript__name">Мастер приёмщик</a>
+      <a class="vacancy__requirements">Требования:</a>
+      <ol>
+        <li class="vacancy__requirements__descript">коммуникабельность</li>
+        <li class="vacancy__requirements__descript">знание тех.части</li>
+        <li class="vacancy__requirements__descript">аккуратность</li>
+        <li class="vacancy__requirements__descript">опыт работы на должности от 2х лет</li>
+      </ol>
+    </div>
+    <div class="vacancy__descript">
+      <a class="vacancy__descript__name">Авто-юрист</a>
+      <a class="vacancy__requirements">Требования:</a>
+      <ol>
+        <li class="vacancy__requirements__descript">высшее юридическое образование</li>
+        <li class="vacancy__requirements__descript">грамотная письменная и устная речь</li>
+        <li class="vacancy__requirements__descript">сопровождение сделок</li>
+        <li class="vacancy__requirements__descript">опыт работы в автобизнесе от 5 лет</li>
+      </ol>
+    </div>
+  </div>
 </main>
-<footer>
-  <section>
+<footer class="footer">
+  <div class="footer__header">
     <h6>© Copyrights - 2022 All Rights Reserved | KIGA Motors</h6>
-  </section>
+  </div>
 </footer>
 </body>
 </html>

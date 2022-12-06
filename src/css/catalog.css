@@ -1,0 +1,138 @@
+
+ul.list{
+    display: list-item;
+}
+
+.header__container__all{
+
+    margin-top: 80px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    flex-wrap: wrap;
+    color: black;
+    font-weight: bold;
+}
+.advertisment{
+    display: flex;
+    background-color: #898685;
+    border-radius: 30px;
+    margin: 10px 40px;
+    flex-wrap: wrap;
+}
+
+.advertisment__headerandimg{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.advertisment__header__info{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.advertisment__price{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.advertisment__characteristicsandprice{
+    display: flex;
+    margin-top: 80px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.advertisment__characteristics__text{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    flex-wrap: wrap;
+    font-size: 25px;
+}
+
+.img__auto{
+    display: flex;
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+    margin: 25px 20px;
+}
+
+.advertisment__characteristics{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 25px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+@media only screen and (min-width: 500px) {
+    .header__container__all{
+        font-size: 30px;
+    }
+    .advertisment__header__info{
+        font-size: 20px;
+    }
+    .img__auto{
+        width: 200px;
+        height: auto;
+        border-radius: 20px;
+    }
+    .advertisment__price{
+        font-size: 35px;
+    }
+    .advertisment__characteristics__text{
+
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .header__container__all{
+        font-size: 40px;
+    }
+    .advertisment__header__info{
+        font-size: 30px;
+    }
+    .img__auto{
+        width: 300px;
+        height: auto;
+        border-radius: 20px;
+    }
+    .advertisment__price{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 1024px) {
+    .header__container__all{
+        font-size: 50px;
+    }
+    .advertisment__header__info{
+        font-size: 40px;
+    }
+    .img__auto{
+        width: 490px;
+        height: auto;
+        border-radius: 20px;
+    }
+    .advertisment__price{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .header__container__image__size {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+        margin: 20px;
+    }
+}
