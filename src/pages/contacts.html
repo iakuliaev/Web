@@ -3,33 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <title>contacts</title>
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/catalog.css">
+    <link rel="stylesheet" href="/src/css/contact.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
 </head>
-<body bgcolor="A4A1A0">
-<header>
-    <h2 style="display: inline"><a href="../../index.html"><img src="../img/main_logo.png" alt="logo"></a></h2>
-    <h1>Контакты</h1>
-    <p>Компания успешно работает с 1997 года. За это время сформировались прочные отношения с партнерами в США, Канаде и Европе. Не остались в стороне и российские представительства автомобильных производителей. Тесные контакты с автодилерами в Москве и Санкт-Петербурге, и непосредственно с дистрибьюторами многих марок позволяют нам делать уникальные предложения.
-
-        В нашей компании работают эксперты по автомобилям Toyota (Тойота), Lexus (Лексус), Nissan(Ниссан), Suzuki (Сузуки), BMW(БМВ), Porsche (Порше), Cadillac (Кадиллак), Chevrolet (Шевроле), Hummer (Хаммер), Buick (Бьюик),  GMC (Джи Эм Си), Opel (Опель) . Впрочем, и в остальных марках для нас секретов мало. Особенное удовольствие приносит нам работа с нестандартными автомобилями, как Chevrolet Corvette (Шевроле Корвет), Bentley (Бентли), Aston Martin (Астон Мартин), Ferrari (Феррари) .</p>
+<body>
+<header class="header">
+    <div class="header__container">
+        <div class="header__container__image">
+            <h2 style="display: inline">
+                <img class="header__container__image__size" src="/src/img/main_logo.png" alt="logo">
+            </h2>
+        </div>
+        <a class="header__container__all">Контакты</a>
+    </div>
 </header>
 <main>
-    <h2>Адрес: Россия, Москва, ул Пушкина, д Колотушкина</h2>
-    <section>
-        <ul>
-            <li>Телефон: +7 939 939-39-39</li>
-            <li>contact@kiga.ru</li>
-            <li>www.kigamotorscompany.com</li>
-        </ul>
-    </section>
-    <section>
-        <iframe src="https://yandex.ru/map-widget/v1/?lang=ru_RU&amp;scroll=true&amp;um=constructor%3A228b50ac7f66c14f3405684ebc01a7c7af30e2dde28673701c422a74bab50b8b" frameborder="0" allowfullscreen="true" width="100%" height="400px" style="display: block;"></iframe>
-    </section>
+    <div class="main__contact">
+        <div class="contacts">
+            <a class="main__contact__info"> Компания успешно работает с 1997 года. За это время сформировались прочные отношения с партнерами в США, Канаде и Европе. Не остались в стороне и российские представительства автомобильных производителей. Тесные контакты с автодилерами в Москве и Санкт-Петербурге, и непосредственно с дистрибьюторами многих марок позволяют нам делать уникальные предложения. В нашей компании работают эксперты по автомобилям Toyota (Тойота), Lexus (Лексус), Nissan(Ниссан), Suzuki (Сузуки), BMW(БМВ), Porsche (Порше), Cadillac (Кадиллак), Chevrolet (Шевроле), Hummer (Хаммер), Buick (Бьюик), GMC (Джи Эм Си), Opel (Опель) . Впрочем, и в остальных марках для нас секретов мало. Особенное удовольствие приносит нам работа с нестандартными автомобилями, как Chevrolet Corvette (Шевроле Корвет), Bentley (Бентли), Aston Martin (Астон Мартин), Ferrari (Феррари) .</a>
+            <a class="main__contact__info">Адрес: Россия, Москва, ул Пушкина, д Колотушкина </a>
+            <ul>
+                <li class="main__contact__info">Телефон: +7 939 939-39-39</li>
+                <li class="main__contact__info">contact@kiga.ru</li>
+                <li class="main__contact__info">www.kigamotorscompany.com</li>
+            </ul>
+        </div>
+    </div>
+    <iframe class="yandex__frame" src="https://yandex.ru/map-widget/v1/?lang=ru_RU&amp;scroll=true&amp;um=constructor%3A228b50ac7f66c14f3405684ebc01a7c7af30e2dde28673701c422a74bab50b8b" frameborder="0" allowfullscreen="true" width="100%" height="400px" style="display: block;"></iframe>
 </main>
-<footer>
-    <section>
+<footer class="footer">
+    <div class="footer__header">
         <h6>© Copyrights - 2022 All Rights Reserved | KIGA Motors</h6>
-    </section>
+    </div>
 </footer>
 </body>
 </html>

@@ -1,0 +1,50 @@
+.main__contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px 10px 5px;
+    border-radius: 10px;
+}
+
+.main__contact__info{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 10px 10px 5px;
+    color: black;
+}
+.contacts{
+    margin: 10px 10px 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #898685;
+}
+
+.yandex__frame{
+    display: flex;
+    height:700px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 15px 10px 5px;
+    border-radius: 10px;
+}
+
+@media only screen and (min-width: 500px) {
+    .main__contact__info{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (min-width: 720px) {
+    .main__contact__info {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .main__contact__info{
+        font-size: 35px;
+    }
+}
