@@ -16,7 +16,7 @@ ul.list{
     font-weight: bold;
 }
 .advertisment{
-    display: flex;
+    display: flex !important;
     background-color: #898685;
     border-radius: 30px;
     margin: 10px 40px;
