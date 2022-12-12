@@ -7,12 +7,32 @@ body {
     color: black;
 }
 
+.text__navigation--underline{
+    display: flex;
+    font-size: 20px;
+}
+
 .text__navigation{
     display: flex;
     font-size: 20px;
     color: white;
     margin-left: 40px;
     margin-right: 40px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+.text__navigation:after{
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #626262;
+    transition: width 0.3s ease-out;
+}
+
+.text__navigation:hover{
+    width: 100%;
+    color: #626262;
 }
 
 .text{
@@ -36,6 +56,7 @@ a {
 .text:visited{
     color: black;
 }
+
 
 
 .header {
@@ -115,7 +136,6 @@ a {
     color: white;
 }
 .header__navigation:active {
-    background: #265301;
     color: #CDFEAA;
 }
 .header__navigation:visited{
@@ -165,10 +185,10 @@ h6{
     .text {
         font-size: 20px;
     }
-    .text__navigation {
+    .text__navigation, .text__navigation--underline{
         font-size: 20px;
     }
-    header__container__link__social {
+    .header__container__link__social {
         font-size: 20px;
     }
 }
@@ -188,10 +208,10 @@ h6{
         width: 61px;
         height: 61px;
     }
-    .text__navigation {
+    .text__navigation, .text__navigation--underline {
         font-size: 30px;
     }
-    header__container__link__social {
+    .header__container__link__social {
         font-size: 30px;
     }
 }
@@ -210,10 +230,11 @@ h6{
     .text {
         font-size: 40px;
     }
-    .text__navigation {
+    .text__navigation, .text__navigation--underline {
         font-size: 40px;
     }
-    header__container__link__social {
+
+    .header__container__link__social {
         font-size: 40px;
     }
 }

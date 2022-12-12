@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Main catalog</title>
@@ -17,13 +17,30 @@
             </h2>
         </div>
         <a class="header__container__all">Автомобили в наличии</a>
+        <nav class="header__navigation">
+            <nav class="header__navigation__pages" style="display: inline">
+                <a class="text__navigation--underline" href="../pages/catalog.html">Все автомобили </a>
+            </nav>
+            <nav class="header__navigation__pages" style="display: inline">
+                <a class="text__navigation" href="../pages/vacancy.html">Вакансии</a>
+            </nav>
+            <nav class="header__navigation__pages" style="display: inline">
+                <a class="text__navigation" href="../pages/contacts.html">Контакты</a>
+            </nav>
+        </nav>
     </div>
 </header>
 <main>
     <div class="advertisment">
-        <div class="advertisment__headerandimg">
+        <div class="advertisment__headerandimg" >
             <a class="advertisment__header__info">Toyota Camry VI (XV40)</a>
-            <img class="img__auto" src="../img/camry.jpg"></img>
+            <div class="slides">
+                <a class="slider-left" onclick="plusDivs(-1, 0)">&#10094;</a>
+                    <img class="mySlides1" src="../img/camry.jpg">
+                    <img class="mySlides1" src="../img/camry2.jpg">
+                    <img class="mySlides1" src="../img/camry3.jpg">
+                <a class="slider-right" onclick="plusDivs(1, 0)">&#10094;</a>
+            </div>
         </div>
         <div class="advertisment__characteristicsandprice">
             <a class="advertisment__price">900 000 руб</a>
@@ -43,7 +60,13 @@
     <div class="advertisment">
         <div class="advertisment__headerandimg">
             <a class="advertisment__header__info">Ford Fusion I Рестайлинг</a>
-            <img class="img__auto" src="../img/pups.jpg" ></img>
+            <div class="slides">
+                <a class="slider-left" onclick="plusDivs(-1, 1)">&#10094;</a>
+                <img class="mySlides2" src="../img/pups.jpg" >
+                <img class="mySlides2" src="../img/pups2.jpg" >
+                <img class="mySlides2" src="../img/pups3.jpg" >
+                <a class="slider-right" onclick="plusDivs(1, 1)">&#10094;</a>
+            </div>
         </div>
         <div class="advertisment__characteristicsandprice">
             <a class="advertisment__price">450 000 руб</a>
@@ -63,8 +86,15 @@
     <div class="advertisment">
         <div class="advertisment__headerandimg">
             <a class="advertisment__header__info">Toyota Land Cruiser 200</a>
-            <img class="img__auto" src="../img/200.jpg" ></img>
+            <div class="slides">
+                <a class="slider-left" onclick="plusDivs(-1, 2)">&#10094;</a>
+                <img class="mySlides3" src="../img/200.jpg" >
+                <img class="mySlides3" src="../img/tlc200_2.jpg" >
+                <img class="mySlides3" src="../img/tlc200_3.jpg" >
+                <a class="slider-right" onclick="plusDivs(1, 2)">&#10094;</a>
+            </div>
         </div>
+
         <div class="advertisment__characteristicsandprice">
             <a class="advertisment__price">7 500 000 руб</a>
             <div class="advertisment__characteristics">
@@ -89,5 +119,6 @@
         <h6>© Copyrights - 2022 All Rights Reserved | KIGA Motors</h6>
     </div>
 </footer>
+<script src="../js/catalog-slider.js"></script>
 </body>
 </html>
