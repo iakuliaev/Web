@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="src/css/catalog.css">
     <link rel="stylesheet" href="src/css/vacancy.css">
     <link rel="stylesheet" href="src/css/contact.css">
+    <link rel="stylesheet" href="src/node_modules/izitoast/dist/css/iziToast.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
-
+<script src="src/node_modules/izitoast/src/js/iziToast.js"></script>
+<script src="src/js/social-network.js"> </script>
 <header class="header">
     <div class="header__container">
         <div class="header__container__image">
@@ -23,14 +25,14 @@
                 <a class="text" href="http://www.kigamotorscompany.com/"> kigamotorscompany.com</a>
             </nav>
             <div class="header__container__link__social">
-                <a class="header__container__link__social__image"  href="http://www.instagram.com/kigamotors">
-                    <img class="img" src="src/img/inst.png" width="81" height="81" alt="inst">
+                <a class="header__container__link__social__image">
+                    <img class="img" src="src/img/inst.png" width="81" height="81" alt="inst" onclick=redirect("img","http://www.instagram.com/kigamotors")>
                 </a>
-                <a class="header__container__link__social__image" href="http://www.auto.ru/kigamotors">
-                    <img class="img" src="src/img/autoru.jpeg" width="81" height="81" alt="auto.ru">
+                <a class="header__container__link__social__image">
+                    <img class="img" src="src/img/autoru.jpeg" width="81" height="81" alt="auto.ru" onclick=redirect("img","https://auto.ru/diler/cars/all/as_motors_sankt_peterburg/")>
                 </a>
-                <a class="header__container__link__social__image" href="http://www.avito.ru/kigamotors">
-                    <img class="img" src="src/img/avito.png" width="81" height="81" alt="avito">
+                <a class="header__container__link__social__image">
+                    <img class="img" src="src/img/avito.png" width="81" height="81" alt="avito" onclick=redirect("img","https://www.avito.ru/user/0aadb24380ce3bd47d0ca81d92a4816e/profile\n")>
                 </a>
             </div>
         </div>
