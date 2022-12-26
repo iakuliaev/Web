@@ -105,6 +105,16 @@ a {
     margin-top: 5px;
     border-radius: 10px;
 }
+.city{
+    display: flex;
+}
+
+.temp{
+    display: flex;
+}
+.humidity{
+    display: flex;
+}
 
 .img{
     display: flex;
@@ -121,6 +131,15 @@ a {
     width: 100px;
     height: 100px;
 
+}
+
+.header__container__weather{
+    right:150px;
+    margin-left: 100px;
+    margin-right: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .header__navigation{
@@ -177,6 +196,9 @@ h6{
         border-radius: 20px;
         margin: 20px;
     }
+    .header__container__weather{
+        margin-left: 300px;
+    }
     .img{
         border-radius: 10px;
         width: 41px;
@@ -200,6 +222,9 @@ h6{
         border-radius: 20px;
         margin: 20px;
     }
+    .header__container__weather{
+        margin-left: 300px;
+    }
     .text {
        font-size: 30px;
     }
@@ -221,6 +246,9 @@ h6{
         height: 200px;
         border-radius: 20px;
         margin: 20px;
+    }
+    .header__container__weather{
+        margin-left: 800px;
     }
     .img{
         border-radius: 20px;
