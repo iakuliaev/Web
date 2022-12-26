@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
+<script src="src/js/weather.js"></script>
 <script src="src/node_modules/izitoast/src/js/iziToast.js"></script>
 <script src="src/js/social-network.js"> </script>
 <header class="header">
@@ -35,6 +36,16 @@
                     <img class="img" src="src/img/avito.png" width="81" height="81" alt="avito" onclick=redirect("img","https://www.avito.ru/user/0aadb24380ce3bd47d0ca81d92a4816e/profile\n")>
                 </a>
             </div>
+        </div>
+        <div class="header__container__weather">
+            <h2 class="city">Санкт-Петербург</h2>
+            <h1 class="temp"></h1>
+            <div class="flex">
+                <img src="" alt="" class="icon" />
+                <div class="description"></div>
+            </div>
+            <div class="humidity"></div>
+            <div class="wind"></div>
         </div>
     </div>
     <nav class="header__navigation">
